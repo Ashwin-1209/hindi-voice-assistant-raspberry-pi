@@ -1,0 +1,19 @@
+# Hindi Voice Assistant - Python Dependencies
+# Install with: pip3 install -r requirements.txt --break-system-packages
+
+# Core ASR (Speech Recognition)
+vosk==0.3.45
+
+# Audio I/O
+pyaudio==0.2.13
+
+# System utilities (usually pre-installed on Raspberry Pi OS)
+# numpy - Required by vosk
+# json - Built-in
+# subprocess - Built-in
+# datetime - Built-in
+# random - Built-in
+# re - Built-in
+
+# Note: eSpeak-NG is installed via apt, not pip
+# Install with: sudo apt install espeak-ng
